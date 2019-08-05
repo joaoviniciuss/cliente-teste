@@ -77,7 +77,7 @@ mvn spring-boot:run
 
 + The current version of the API is v1.0.
 
-1. Creating a new Person using POST /api/v1.0/cliente API
+1. Creating a new Cliente using POST /api/v1.0/cliente API
 + localhost:8080/api/cliente/
 Example: 
 
@@ -96,7 +96,7 @@ Example:
 3. Retrieving a single Cliente using GET /api/v1.0/clientes/{clienteId} API
 + localhost:8080/api/clientes/1
 
-4. Updating a Clientes using PUT /api/v1.0/clientes/{personId} API
+4. Updating a Clientes using PUT /api/v1.0/clientes/{clienteId} API
 + localhost:8080/api/clientes/1
 Example: 
 
@@ -109,5 +109,5 @@ Example:
 }
 ```
 
-5. Deleting a Cliente using DELETE /api/v1.0/clientes/{personId} API
+5. Deleting a Cliente using DELETE /api/v1.0/clientes/{clienteId} API
 + localhost:8080/api/clientes/1
