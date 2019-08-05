@@ -79,8 +79,7 @@ mvn spring-boot:run
 
 1. Creating a new Person using POST /api/v1.0/cliente API
 + localhost:8080/api/cliente/
-
-+ Example: 
+Example: 
 
 ```
 {
@@ -99,7 +98,7 @@ mvn spring-boot:run
 
 4. Updating a Clientes using PUT /api/v1.0/clientes/{personId} API
 + localhost:8080/api/clientes/1
-+ Example: 
+Example: 
 
 ```
 {
