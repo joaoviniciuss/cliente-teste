@@ -12,7 +12,7 @@ public class Util {
 		JsonObject geolocation = geoUtil.GetGeolocation(cliente.getIp());
 
 		if (null != geolocation) {
-			cliente.setAddress(geolocation.get("city").getAsString() + "/" + geolocation.get("region").getAsString()
+			cliente.setRequestLocation(geolocation.get("city").getAsString() + "/" + geolocation.get("region").getAsString()
 					+ "/" + geolocation.get("country").getAsString());
 
 			WeatherUtil weatherUtil = new WeatherUtil();
